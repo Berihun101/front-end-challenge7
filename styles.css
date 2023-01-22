@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Overpass', sans-serif;
+}
+button{
+  font-family: inherit;
+}
+body{
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ justify-content: center;
+ align-items: center;
+}
+
+.thank-u-state{
+  width: 400px;
+  padding: 2rem;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 20px;
+}
+.thank-u-state img{
+  display: block;
+margin: 0 auto 2rem;
+}
+.thank-u-state .rating{
+margin: 0 auto 2rem;
+text-align: center;
+color: hsl(25, 97%, 53%);
+width: 60%;
+background:hsl(214, 28%, 28%);
+border-radius: 20px;
+}
+.thank-u-state p{
+  color:  hsl(217, 12%, 63%);
+  margin-top: 20px;
+}
+.thank-u-state h1{
+text-align: center;
+color:#fff;
+}
+.thank-u-state button[type=submit]{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background: hsl(25, 97%, 53%);
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  margin-top: 20px;
+}
+.thank-u-state button[type=submit]:hover{
+  background: hsl(0, 0%, 100%);
+  color:hsl(25, 97%, 53%);
+}
+.eval-page{
+width: 400px;
+padding: 2rem;
+background-color: hsl(213, 19%, 18%);
+border-radius: 20px;
+}
+.eval-page p{
+  margin-bottom: 20px;
+  color:  hsl(217, 12%, 63%);
+}
+.eval-page img{
+  padding: 0.6rem;
+  border-radius: 50%;
+  background: hsl(214, 28%, 28%);
+  margin-bottom: 20px;
+}
+.eval-page h1{
+color: hsl(0, 0%, 100%);
+margin-bottom: 15px;
+
+}
+.eval-page .eval-num{
+display: flex;
+justify-content: space-between;
+}
+.eval-page .eval-num button{
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 4% 5.5%;
+  margin-bottom: 20px;
+  background:  hsl(214, 28%, 28%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  transition: 0.5s;
+
+}
+.eval-page .eval-num button:focus{
+  background-color:hsl(216, 12%, 54%);
+}
+.eval-page button[type=submit]{
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  background: hsl(25, 97%, 53%);
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 100%);
+  border: none;
+}
+.eval-page button[type=submit]:hover{
+  background: hsl(0, 0%, 100%);
+  color:hsl(25, 97%, 53%);
+}
+.eval-page .eval-num button:hover{
+  background: hsl(25, 97%, 53%);
+}
+.hidden-class{
+  display: none;
+}
+.hidden-eval{
+  display: none;
+}
